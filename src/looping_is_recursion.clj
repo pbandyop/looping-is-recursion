@@ -48,12 +48,8 @@
   ":(")
 
 (defn fast-fibo [n]
-  (cond
-   (= n 0) 0
-   (= n 1) 1
-    :else (+ (fast-fibo (- n 1)) (fast-fibo (- n 2)))
-   ))
 
+  ":(")
 
 (defn cut-at-repetition [a-seq]
   [":("])
